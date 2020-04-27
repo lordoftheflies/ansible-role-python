@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - python_deployment_users_home: /root
+    - python_testing_provider: lxd
+
+  roles:
+    - python

@@ -1,0 +1,4 @@
+---
+# roles/python/vars/debian.yml
+
+python_package_extension: 'rpm'

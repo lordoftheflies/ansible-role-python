@@ -1,0 +1,5 @@
+---
+# roles/python/vars/debian.yml
+
+# Debian specific vars
+python_package_extension: 'deb'
